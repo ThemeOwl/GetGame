@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="res/res.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Game 1</title>
+</head>
+<body>
+    
+    <div class="web-container">
+        <div class="bg-img-action">
+            <div class="text-img">
+                <div class="top-game">
+                    <h1>Assassin's creed valhalla</h1>
+                    <div class="top"><p>Top</p></div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="header-light"></div>
+        <header>
+            <div class="head-container">
+                <div class="logo">
+                   <h1>GetGame</h1>
+                   <div class="nav-links" id="nav-link">
+                    <ul>
+                        <li><a id="active" href="index.html">Home</a></li>
+                        <li><a href="action.html">Action</a></li>
+                        <li><a href="shooting.html">Shooting</a></li>
+                        <li><a href="horror.html">Horror</a></li>
+                        <li><a class="other-li" href="">Other  <i class="fal fa-angle-down"></i></a>
+                            <div class="other-menu">
+                                <a class="other-a" href="">Adventure</a>
+                                <a class="other-a" href="">Fighting</a>
+                                <a class="other-a" href="">Racing</a>
+                                <a class="other-a" href="">Strategy</a>
+                                <a class="other-a" href="">Adventure</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                
+                <div class="user-container">
+                    <ul>
+                        <li><input class="input-1" type="text"></li>
+                        <li><a href=""><i class="far fa-search"></i></a></li>
+                        <li><a href=""><i class="far fa-user"></i></a></li>
+                    </ul>
+                    
+                </div>
+                <div class="burger">
+                    <i class="fal fa-bars" onclick="showMenu()" onclick="closeMenu()"></i>
+                </div>
+                
+
+            </div>
+            
+        </header>
+
+        <div class="recomended-section-action">
+            <div class="recomended-container-action">
+                <h1>Recomended for you</h1>
+                <div class="recomended-games">
+                    <a href="">
+                    <div class="recomended-box">
+                        <div class="recomended-img-action-1"></div>
+                        <div class="recomended-txt">
+                            <h5>Call of Duty: Modern Warfare</h5>
+                            <p>By Wicks</p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="">
+                    <div class="recomended-box">
+                        <div class="recomended-img-action-2"></div>
+                        <div class="recomended-txt">
+                            <h5>Batman: Arkham City</h5>
+                            <p>By Wicks</p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="">
+                    <div class="recomended-box">
+                        <div class="recomended-img-action-3"></div>
+                        <div class="recomended-txt">
+                            <h5>Bayonetta</h5>
+                            <p>By Wicks</p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="">
+                    <div class="recomended-box">
+                        <div class="recomended-img-action-4"></div>
+                        <div class="recomended-txt">
+                            <h5>Resident Evil Village</h5>
+                            <p>By Wicks</p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-5"></div>
+                            <div class="recomended-txt">
+                                <h5>Destiny 2: Beyond Light</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-6"></div>
+                            <div class="recomended-txt">
+                                <h5>Call of Duty: Modern Warfare</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-7"></div>
+                            <div class="recomended-txt">
+                                <h5>Resident Evil 4: Biohazard</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-8"></div>
+                            <div class="recomended-txt">
+                                <h5>Titan Fall 2</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-9"></div>
+                            <div class="recomended-txt">
+                                <h5>Titan Fall 2</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-10"></div>
+                            <div class="recomended-txt">
+                                <h5>Resident Evil 4: Biohazard</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-11"></div>
+                            <div class="recomended-txt">
+                                <h5>Call of Duty: Modern Warfare</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-12"></div>
+                            <div class="recomended-txt">
+                                <h5>Destiny 2: Beyond Light</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-13"></div>
+                            <div class="recomended-txt">
+                                <h5>Destiny 2: Beyond Light</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-14"></div>
+                            <div class="recomended-txt">
+                                <h5>Destiny 2: Beyond Light</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-15"></div>
+                            <div class="recomended-txt">
+                                <h5>Destiny 2: Beyond Light</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="recomended-box">
+                            <div class="recomended-img-action-16"></div>
+                            <div class="recomended-txt">
+                                <h5>Call of Duty: Modern Warfare</h5>
+                                <p>By Wicks</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="see-box">
+                <button class="more-games">
+                    See More
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-1">
+                <div class="about-us">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fuga veniam rem ratione neque. Cupiditate suscipit fuga voluptates debitis iure.</p>
+                    <br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, cum alias? Excepturi earum labore doloribus assumenda a. Rem cumque iste laboriosam, eaque numquam quos quidem sed vel maxime, nihil voluptatum!</p>
+                </div>
+                <div class="help">
+                    <ul>
+                        <li><h3>Help</h3></li>
+                        <li><a href="#">Contect Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Stay Safe</a></li>
+                    </ul>
+                </div>
+                <div class="social-box">
+                    <ul>
+                        <li><a href="#"><img src="images/i1" alt=""></a></li>
+                        <li><a href="#"><img src="images/i2" alt=""></a></li>
+                        <li><a href="#"><img src="images/i3" alt=""></a></li>
+                        <li><a href="#"><img src="images/i4" alt=""></a></li>
+                    </ul>
+                    <h3>GetGame</h3>
+                </div>
+            </div>
+
+            <div class="footer-2">
+                <h5>
+                    Use of this Web site constitutes acceptance of the <span>Terms and Conditions</span> and <span>Privacy policy</span>. All copyrights, trade marks, service marks belong to the corresponding owners.
+                </h5>
+            </div>
+        </footer>
+
+    </div>
+
+
+<!--Script-->
+<script>
+    $(document).ready(function(){
+        $(".fa-search").click(function(){
+            $(".input-1").toggle();
+        });
+    });
+    $(document).ready(function(){
+        $(".burger").click(function(){
+            $(".nav-links").toggle();
+        });
+    });
+
+</script>
+
+</body>
+</html>
